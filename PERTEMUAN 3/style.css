@@ -1,0 +1,60 @@
+.banner_main{
+display: block;
+margin: 0 auto;
+}
+
+.table_content{
+margin: 0 auto; 
+border-spacing: 100px;
+}
+
+.table_content a{
+text-decoration : none;
+font-size: 30px;
+}
+
+.table_hero{
+margin: 0 auto; 
+border-spacing: 250px;
+}
+
+.layout_hero {
+    display: flex; 
+    flex-direction: column;
+    width: 80%; 
+    margin: 40px auto; 
+    gap: 30px;
+}
+
+.konten_atas {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; 
+}
+
+.kolom_kiri, .kolom_kanan {
+    flex: 1; 
+}
+
+
+.kiri_atas, .kanan_atas {
+    display: flex;
+    gap: 15px; 
+}
+
+.gambar_utama {
+    width: 150px; 
+    height: auto;
+    object-fit: cover;
+}
+
+.kotak_gambar_kanan {
+    width: 150px;
+    height: 120px;
+    border: 2px solid black; 
+}
+
+.konten_bawah {
+    width: 100%;
+    text-align: center; /* Menengahkan teks yang ada di dalamnya */
+}
